@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringProject_Bean" />
+        <module name="SpringProject_Bean_Instance" />
         <module name="SpringProject_Basic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="SpringProject_Basic" target="11" />
-      <module name="SpringProject_Bean" target="11" />
+      <module name="SpringProject_Basic" target="1.5" />
+      <module name="SpringProject_Bean" target="1.5" />
+      <module name="SpringProject_Bean_Instance" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
