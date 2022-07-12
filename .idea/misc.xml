@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/SpringProject_Bean/pom.xml" />
         <option value="$PROJECT_DIR$/SpringProject_Bean_BaseConfig/pom.xml" />
         <option value="$PROJECT_DIR$/SpringProject_Bean_Instance/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringProject_Bean_LifeCycle/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringProject_DI_Set/pom.xml" />
       </list>
     </option>
   </component>
