@@ -9,6 +9,11 @@
         <option value="$PROJECT_DIR$/SpringProject_Bean_Instance/pom.xml" />
         <option value="$PROJECT_DIR$/SpringProject_Bean_LifeCycle/pom.xml" />
         <option value="$PROJECT_DIR$/SpringProject_DI_Set/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringProject_DI_Constructor/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringProject_AutoWare/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringProject_DI_Collection/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringProject_DI_AutoWire/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringProject_Container/pom.xml" />
       </list>
     </option>
   </component>

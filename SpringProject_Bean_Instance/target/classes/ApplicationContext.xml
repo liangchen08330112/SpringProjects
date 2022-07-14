@@ -7,7 +7,7 @@
 <!--    <bean id="bookDao" class="cn.edu.sict.lc.dao.impl.BookDaoImpl" />-->
 
 <!--    方式二：使用静态工厂实例化bean&ndash;&gt;-->
-<!--    <bean id="orderDao" class="cn.edu.sict.lc.factory.OrderDaoFactory" factory-method="getOrderDao"/>-->
+    <bean id="orderDao" class="cn.edu.sict.lc.factory.OrderDaoFactory" factory-method="getOrderDao"/>
 
 <!--    方式三：使用实例工厂实例化bean&ndash;&gt;-->
 <!--    先造一个工厂的bean&ndash;&gt;-->

@@ -6,19 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringProject_DI_Constructor" />
+        <module name="SpringProject_AutoWare" />
+        <module name="SpringProject_Container" />
         <module name="SpringProject_Bean_LifeCycle" />
         <module name="SpringProject_Bean" />
         <module name="SpringProject_Bean_Instance" />
         <module name="SpringProject_Basic" />
-        <module name="SpringProject_DI_Set" />
+        <module name="SpringProject_DI_Collection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
+      <module name="SpringProject_AutoWare" target="11" />
       <module name="SpringProject_Basic" target="1.5" />
       <module name="SpringProject_Bean" target="1.5" />
       <module name="SpringProject_Bean_Instance" target="11" />
       <module name="SpringProject_Bean_LifeCycle" target="11" />
-      <module name="SpringProject_DI_Set" target="11" />
+      <module name="SpringProject_Container" target="11" />
+      <module name="SpringProject_DI_AutoWire" target="11" />
+      <module name="SpringProject_DI_Collection" target="11" />
+      <module name="SpringProject_DI_Constructor" target="11" />
+      <module name="SpringProject_DI_Setter" target="11" />
+      <module name="SpringProject_Example_DataSource" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

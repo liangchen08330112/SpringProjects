@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bookDao" class="cn.edu.sict.lc.dao.impl.BookDaoImpl" >
+        <property name="array">
+            <array>
+                <value>10</value>
+                <value>20</value>
+                <value>30</value>
+            </array>
+        </property>
+        <property name="stringList">
+            <list>
+                <value>济南</value>
+                <value>烟台</value>
+                <value>青岛</value>
+            </list>
+        </property>
+        <property name="stringSet">
+            <set>
+                <value>日照</value>
+                <value>潍坊</value>
+                <value>威海</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="country" value="中国"></entry>
+                <entry key="province" value="山东"></entry>
+                <entry key="city" value="泰安"></entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="country">中国</prop>
+                <prop key="province">陕西</prop>
+                <prop key="city">西安</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
