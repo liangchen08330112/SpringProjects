@@ -14,12 +14,14 @@
         <module name="SpringProject_Bean_Instance" />
         <module name="SpringProject_Basic" />
         <module name="SpringProject_DI_Collection" />
+        <module name="SpringProject_Bean_Annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="SpringProject_AutoWare" target="11" />
       <module name="SpringProject_Basic" target="1.5" />
       <module name="SpringProject_Bean" target="1.5" />
+      <module name="SpringProject_Bean_Annotation" target="11" />
       <module name="SpringProject_Bean_Instance" target="11" />
       <module name="SpringProject_Bean_LifeCycle" target="11" />
       <module name="SpringProject_Container" target="11" />

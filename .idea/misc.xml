@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/SpringProject_DI_Collection/pom.xml" />
         <option value="$PROJECT_DIR$/SpringProject_DI_AutoWire/pom.xml" />
         <option value="$PROJECT_DIR$/SpringProject_Container/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringProject_Bean_Annotation/pom.xml" />
       </list>
     </option>
   </component>
